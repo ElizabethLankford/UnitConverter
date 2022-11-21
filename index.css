@@ -1,0 +1,67 @@
+/* dark blue #08418b
+bright blue #64c3ed
+light blue #c6eff9
+moody blue #3f7392;
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #08418b; 
+}
+p{
+    color: black;
+}
+h1{
+    text-shadow: 2px 3px 2px #64c3ed;
+}
+.top-header {
+    background-color: #c6eff9;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#unit-input {
+    height: 80px;
+    width: 115px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 58px;
+    border: 2px solid #64c3ed;
+    border-radius: 5px;
+    text-align: center;
+    color: #64c3ed;
+    
+}
+#convert-btn {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #08418b;
+    height: 40px;
+    width: 115px;
+    border-radius: 5px;
+    border: 2px solid #64c3ed;
+    margin: 25px auto;
+}
+button:hover {
+    box-shadow: 3px 3px 2px #64c3ed;
+}
+.body-section {
+    background-color: #08418b; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.convert-box {
+    border: 2px solid #64c3ed;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 50px;
+    width: 400px;
+    margin: 20px auto;
+}
